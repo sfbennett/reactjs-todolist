@@ -21,6 +21,11 @@ button {
   font-family: "Press Start 2P", system-ui;
 }
 
+input,
+.addbtn {
+  margin-bottom: 20px;
+}
+
 header {
   display: flex;
   align-items: stretch;

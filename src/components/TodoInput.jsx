@@ -15,6 +15,7 @@ export default function TodoInput(props) {
         placeholder="Enter to do..."
       />
       <button
+        className="addbtn"
         onClick={() => {
           handleAddTodos(todoValue);
           setTodoValue("");
